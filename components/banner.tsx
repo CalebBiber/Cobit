@@ -13,7 +13,7 @@ export default function Banner() {
             <div className="text-slate-500 inline-flex">
               <a
                 className="font-medium hover:underline text-slate-50"
-                href="https://github.com"
+                href="https://github.com/CalebBiber/Cobit"
                 target="_blank"
                 rel="noreferrer"
               >
