@@ -20,7 +20,7 @@ export default function Header() {
           <nav className="hidden md:flex md:grow">
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
-                <Link href="#download" className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3">
+                <Link href="/#download" className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3">
                   Download
                 </Link>
               </li>

@@ -61,7 +61,7 @@ We’d be happy to answer them. Shoot us an email or send us a note:
 <br/><br/>
 Email: bibercaleb@gmail.com
 <br/><br/>
-Mailing Address: (INTERNATIONAL MILESTONE LIMITED)Flat 18, 3 Sherbourne Road, Mount Eden, Auckland, 1024 , New Zealand</p>
+Mailing Address: (INTERNATIONAL MILESTONE LIMITED) Flat 18, 3 Sherbourne Road, Mount Eden, Auckland, 1024 , New Zealand</p>
             
           </div>
 
