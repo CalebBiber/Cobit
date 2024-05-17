@@ -21,7 +21,7 @@ export default function Features() {
                 <path className="stroke-current text-purple-300" d="M43 42h-9M43 37h-9" strokeLinecap="square" strokeWidth="2" />
               </svg>
               <h4 className="h4 mb-2">Deserve It.</h4>
-              <p className="text-lg text-gray-400 text-center">In today's digital world, online security is more importantthan ever, especially when it comes to storing yourvaluable cryptocurrency assets. While traditional walletsmay seem secure, they are not immune to the risks ofhacking and other forms of cybercrime. That's why webelieve that you should use a more securecryptocurrency wallet.
+              <p className="text-lg text-gray-400 text-center">In today's digital world, online security is more important than ever, especially when it comes to storing your valuable Crypto Currency assets. While traditional wallets may seem secure, they are not immune to the risks of hacking and other forms of cybercrime. That's why we believe that you should use a more secure Crypto Currency Wallet.
 </p>
             </div>
 
@@ -33,7 +33,7 @@ export default function Features() {
                 <path className="stroke-current text-purple-300" d="M26 28h12M26 32h12M26 36h5" strokeWidth="2" strokeLinecap="square" />
               </svg>
               <h4 className="h4 mb-2">Trusted Wallet</h4>
-              <p className="text-lg text-gray-400 text-center">Solidbit wallet offers a high level of protection againstunauthorized access to your assets Ofine storage and less prone to hacking Full control over your private keys yourself. Multi-currency support Long-term storage: Great option for holding onto cryptocurrency.Easy to use for beginners and experienced users.</p>
+              <p className="text-lg text-gray-400 text-center">Cobit Wallet offers a high level of protection against unauthorized access to your assets Offline Storage and less prone to hacking full control over your private keys yourself. Multi-currency support Long-term storage: Great option for holding onto crypto currency.Easy to use for beginners to experience.</p>
             </div>
 
             {/* 3rd item */}
@@ -47,7 +47,7 @@ export default function Features() {
                 </g>
               </svg>
               <h4 className="h4 mb-2">Security Wallet</h4>
-              <p className="text-lg text-gray-400 text-center">it's time to upgrade to a more secure crypto wallet. We'reconfdent that our wallet will exceed your expectationsand provide you with the peace of mind you deserve. Tryit today and experience the difference for yourself!</p>
+              <p className="text-lg text-gray-400 text-center">It's time to upgrade to a more secure crypto wallet. We're confident that our wallet will exceed your expectations and provide you with the peace of mind you deserve. Try it today and experience the difference for yourself! (<b>Sobit Wallet</b>)</p>
             </div>
 
           </div>
