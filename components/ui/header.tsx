@@ -18,13 +18,13 @@ export default function Header() {
 
           {/* Desktop navigation */}
           <nav className="hidden md:flex md:grow">
-            <ul className="flex grow justify-end flex-wrap items-center">
+            {/*<ul className="flex grow justify-end flex-wrap items-center">
               <li>
                 <Link href="/#download" className="btn-sm text-white bg-yellow-400 hover:bg-yellow-500 ml-3">
                   Download
                 </Link>
               </li>
-            </ul>
+            </ul>*/}
           </nav>
 
           <MobileMenu />

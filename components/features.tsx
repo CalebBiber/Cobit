@@ -20,7 +20,7 @@ export default function Features() {
                 <path className="stroke-current text-yellow-100" d="M30 39.313l-4.18 2.197L27 34.628l-5-4.874 6.91-1.004L32 22.49l3.09 6.26L42 29.754l-3 2.924" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd" />
                 <path className="stroke-current text-yellow-300" d="M43 42h-9M43 37h-9" strokeLinecap="square" strokeWidth="2" />
               </svg>
-              <h4 className="h4 mb-2">Deserve It.</h4>
+              <h4 className="h4 mb-2">High Reputation</h4>
               <p className="text-lg text-gray-400 text-center">In today's digital world, online security is more important than ever, especially when it comes to storing your valuable Crypto Currency assets. While traditional wallets may seem secure, they are not immune to the risks of hacking and other forms of cybercrime. That's why we believe that you should use a more secure Crypto Currency Wallet.
 </p>
             </div>
