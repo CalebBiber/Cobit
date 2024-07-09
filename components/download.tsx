@@ -1,3 +1,9 @@
+import Image from 'next/image'
+
+import ios from '@/public/images/ios.png'
+import android from '@/public/images/android.png'
+import lock from '@/public/images/lock.png'
+
 export default function Hero() {
   return (
     <section>
@@ -17,18 +23,29 @@ export default function Hero() {
         </div>
 
         {/* Hero content */}
-        <div className="relative pt-32 pb-10 md:pt-40 md:pb-16">
+        <div className="relative pt-32 pb-10 md:pb-16">
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16" id="download">
-            <h1 className="h1 mb-4" data-aos="fade-up">Local Storage & Offline Wallet</h1>
-            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200"><b>Cobit Wallet</b> is a mobile cryptocurrency wallet that allows users to securely store, manage, and interact with various digital assets.</p>
+            <h3 className="h3 mb-4" data-aos="fade-up">Convenient Life</h3>
+            <h3 className="h3 mb-4" data-aos="fade-up">Start here</h3><br/>
+            <div className="max-w-xl md:max-w-none mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
+              {<Image className="max-w-full mx-auto md:max-w-none h-auto" src={lock} width={120} alt="Lock" />}
+            </div>
+
+            <br/><br/>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
-                <a className="btn text-white bg-yellow-400 hover:bg-yellow-500 w-full mb-4 sm:w-auto sm:mb-0" href="https://apps.apple.com/app/cobit/id6502889454">iOS App</a>
+                <a className="btn text-white bg-yellow-400 hover:bg-yellow-500 w-full mb-4 sm:w-auto sm:mb-0" href="https://apps.apple.com/app/cobit/id6502889454">
+                {<Image className="md:max-w-none h-auto" src={ios} width={24} alt="Lock" />}
+                &nbsp;&nbsp;iOS Download
+                </a>
               </div>
               <div data-aos="fade-up" data-aos-delay="600">
-                <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="https://github.com/CalebBiber/Cobit/releases/download/v1.1/app-release.apk">Android App</a>
+                <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="https://github.com/CalebBiber/Cobit/releases/download/v2.0/app-release.apk">
+                {<Image className="md:max-w-none h-auto" src={android} width={24} alt="Lock" />}
+                &nbsp;&nbsp;Android Download
+                </a>
               </div>
             </div>
           </div>

@@ -1,6 +1,8 @@
 'use client'
 
 import { useEffect } from 'react'
+import Header from '@/components/ui/header'
+import Banner from '@/components/banner'
 
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -26,10 +28,10 @@ export default function DefaultLayout({
   return (
     <>
       <main className="grow">
-
+        <Header />
         <PageIllustration />
-
         {children}
+        <Banner />
 
       </main>
 
